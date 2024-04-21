@@ -1,0 +1,57 @@
+|main
+clk => clk.IN1
+done <= <GND>
+
+
+|main|instr_memory:i1
+clk => ~NO_FANOUT~
+ins_mem_access_addr[0] => ram.RADDR
+ins_mem_access_addr[1] => ram.RADDR1
+ins_mem_access_addr[2] => ram.RADDR2
+ins_mem_access_addr[3] => ram.RADDR3
+ins_mem_access_addr[4] => ram.RADDR4
+ins_mem_access_addr[5] => ram.RADDR5
+ins_mem_access_addr[6] => ram.RADDR6
+ins_mem_access_addr[7] => ram.RADDR7
+ins_mem_access_addr[8] => ~NO_FANOUT~
+ins_mem_access_addr[9] => ~NO_FANOUT~
+ins_mem_access_addr[10] => ~NO_FANOUT~
+ins_mem_access_addr[11] => ~NO_FANOUT~
+ins_mem_access_addr[12] => ~NO_FANOUT~
+ins_mem_access_addr[13] => ~NO_FANOUT~
+ins_mem_access_addr[14] => ~NO_FANOUT~
+ins_mem_access_addr[15] => ~NO_FANOUT~
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read => ins_mem_read_data.OUTPUTSELECT
+ins_mem_read_data[0] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[1] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[2] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[3] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[4] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[5] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[6] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[7] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[8] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[9] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[10] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[11] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[12] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[13] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[14] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+ins_mem_read_data[15] <= ins_mem_read_data.DB_MAX_OUTPUT_PORT_TYPE
+
+
